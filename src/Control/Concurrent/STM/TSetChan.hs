@@ -3,7 +3,9 @@
   , NamedFieldPuns
   #-}
 
-module Control.Concurrent.STM.TSetChan where
+module Control.Concurrent.STM.TSetChan
+  ( TSetChan, ChanID, newTSetChan, openTSetChan, closeTSetChan, writeTSetChan, readTSetChan
+  ) where
 
 import Data.IntMap.Strict (IntMap)
 import qualified Data.IntMap.Strict as IntMap

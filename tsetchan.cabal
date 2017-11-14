@@ -1,6 +1,6 @@
 name:                tsetchan
-version:             0.1.0.0
--- synopsis:
+version:             0.0.0
+synopsis:            Hides duplicating channels when broadcasting
 -- description:
 homepage:            https://github.com/githubuser/tsetchan#readme
 license:             BSD3
